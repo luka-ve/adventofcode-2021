@@ -53,8 +53,7 @@ for (let i = 0; i < folds.length; i++) {
   }
 
   // Calculate current dot sum
-  let sum = 0;
-  const result = paper.flat(2).forEach((x) => (sum += x ? 1 : 0));
+  let sum = paper.flat(2).length;
   dotSums.push(sum);
 }
 
